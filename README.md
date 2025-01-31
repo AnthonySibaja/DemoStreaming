@@ -23,7 +23,7 @@
         </li>
         <li><strong>Ejecutar la Aplicación:</strong>
             <pre><code>npm run dev</code></pre>
-          <pre><code>Cuando se ejecute el comando se visualizara una URL en la terminal la que se tiene que abrir para poder visualizar la pagina</code></pre>
+          <strong>Cuando se ejecute el comando se visualizara una URL en la terminal la que se tiene que abrir para poder visualizar la pagina</strong>
         </li>
     </ol>
     <h2>Estructura del Proyecto</h2>
