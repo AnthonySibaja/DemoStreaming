@@ -10,7 +10,7 @@
     <ol>
         <li><strong>Clonar el Repositorio:</strong>
             <pre><code>El repositorio se puede clonar por medio de comando de GIT o por GitDesktop</code></pre>
-            <pre><code>Preferiblemente abrir con Visual Studio Code</code></pre>
+            <pre>Preferiblemente abrir con Visual Studio Code</pre>
         </li>
         <li><strong>Instalar Dependencias:</strong>
             <p>Para instalar todas las dependencias necesarias, ejecuta los siguientes comandos en la terminal:</p>
@@ -19,7 +19,8 @@
             <pre><code>npm install @mui/material @emotion/react @emotion/styled axios react-redux @reduxjs/toolkit</code></pre>
             <pre><code>npm install @types/react @types/react-dom</code></pre>
             <pre><code>npm install react@latest react-dom@latest @vitejs/plugin-react@latest</code></pre>
-            <pre><code>Estos comandos se necesitan para instalar las bibliotecas y herramientas que necesitas para construir con React y Material-UI, además de integrar Redux para manejar el estado, Axios para las peticiones HTTP, y configurar Vite para un desarrollo más rápido.</code></pre>
+            <pre>Estos comandos se necesitan para instalar las bibliotecas y herramientas que necesitas 
+            para construir con React y Material-UI, además de integrar Redux para manejar el estado, Axios para las peticiones HTTP, y configurar Vite para un desarrollo más rápido.</pre>
         </li>
         <li><strong>Ejecutar la Aplicación:</strong>
             <pre><code>npm run dev</code></pre>
