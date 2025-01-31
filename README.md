@@ -19,8 +19,7 @@
             <pre><code>npm install @mui/material @emotion/react @emotion/styled axios react-redux @reduxjs/toolkit</code></pre>
             <pre><code>npm install @types/react @types/react-dom</code></pre>
             <pre><code>npm install react@latest react-dom@latest @vitejs/plugin-react@latest</code></pre>
-            <pre>Estos comandos se necesitan para instalar las bibliotecas y herramientas que necesitas 
-            para construir con React y Material-UI, además de integrar Redux para manejar el estado, Axios para las peticiones HTTP, y configurar Vite para un desarrollo más rápido.</pre>
+            <li>Estos comandos se necesitan para instalar las bibliotecas y herramientas que necesitas para construir con React y Material-UI, además de integrar Redux para manejar el estado, Axios para las peticiones HTTP, y configurar Vite para un desarrollo más rápido.</li>
         </li>
         <li><strong>Ejecutar la Aplicación:</strong>
             <pre><code>npm run dev</code></pre>
