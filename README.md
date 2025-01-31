@@ -1,5 +1,6 @@
 
 <body>
+    <h1>Aplicación de Series y Películas</h1>
     <p>Esta es una aplicación React que muestra una lista de series y películas, permitiendo filtrarlas por año y ver detalles adicionales. La aplicación está construida con React, Redux, Material-UI (MUI) y utiliza un archivo JSON local para cargar los datos.</p>
     <h2>Instalación y Uso</h2>
     <h3>Requisitos Previos</h3>
