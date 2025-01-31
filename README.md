@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/aa8e5e75-d809-4ffe-8e9a-3255f54268b7)
 <body>
     <h1>DemoStreaming</h1>
     <p>Esta es una aplicación React que muestra una lista de series y películas, permitiendo filtrarlas por año y ver detalles adicionales. La aplicación está construida con React, Redux, Material-UI (MUI) y utiliza un archivo JSON local para cargar los datos.</p>
@@ -83,10 +83,11 @@
     </ul>
     <h2>Capturas de Pantalla</h2>
     <ul>
-        <li><strong>Página de Inicio:</strong> <img src="path/to/home-page-screenshot.png" alt="Página de Inicio"></li>
-        <li><strong>Página de Series:</strong> <img src="path/to/series-page-screenshot.png" alt="Página de Series"></li>
-        <li><strong>Página de Películas:</strong> <img src="path/to/movies-page-screenshot.png" alt="Página de Películas"></li>
-        <li><strong>Popup de Detalles:</strong> <img src="path/to/popup-screenshot.png" alt="Popup de Detalles"></li>
+        <li><strong>Página de Login:</strong> <img src="https://github.com/user-attachments/assets/22781794-7376-4bdb-aa4f-9ce282cc05bf" alt="Página de Inicio"></li>
+        <li><strong>Página de Home:</strong> <img src="https://github.com/user-attachments/assets/0b1054d4-8925-4886-99cd-eba252bb815b" alt="Página de Inicio"></li>
+        <li><strong>Página de Series:</strong> <img src="https://github.com/user-attachments/assets/23c27053-284f-4cc2-a890-f2e91002b277" alt="Página de Series"></li>
+        <li><strong>Página de Películas:</strong> <img src="https://github.com/user-attachments/assets/531e9931-bd0e-4580-bf81-a60652feee79" alt="Página de Películas"></li>
+        <li><strong>Popup de Detalles:</strong> <img src="https://github.com/user-attachments/assets/533c2444-1eb0-4b40-9ed6-1fc49cab3477" alt="Popup de Detalles"></li>
     </ul>
     <ul>
         <li><strong>Nombre:</strong> Anthony Sibaja Granados</li>
