@@ -5,7 +5,7 @@
     <h2>Instalación y Uso</h2>
     <h3>Requisitos Previos</h3>
     <ul>
-        <li><strong>Node.js:</strong> Primero es tener instalado Nodejs, si por casualidad no lo tiene instalarlo desde aqui  <a href="https://nodejs.org">aquí</a>.</li>
+        <li><strong>Node.js:</strong> Primero es tener instalado Nodejs, si por casualidad no lo tiene instalarlo desde   <a href="https://nodejs.org">aquí</a>.</li>
     </ul>
     <h3>Pasos para Instalar y Ejecutar</h3>
     <ol>
@@ -32,17 +32,16 @@
         <li><strong>src/:</strong> Contiene el código fuente de la aplicación.</li>
         <li><strong>components/:</strong> Componentes reutilizables como Card, Healer y Footer</li>
         <li><strong>pages/:</strong> Páginas de la aplicación (Home, Series, Movies, Login).</li>
-        <li><strong>redux/:</strong> Configuración de Redux en la carpeta Utils (Store, MoviesSlice).</li>
-        <li><strong>utils/:</strong> Utilidades y configuraciones adicionales.</li>
+        <li><strong>Ultis/:</strong> Configuración de Redux en la carpeta Utils (Store, MoviesSlice).</li>
         <li><strong>public/:</strong> Archivos estáticos como imágenes y el archivo JSON (sample.json).</li>
     </ul>
+    <h2>Funcionalidades Principales</h2>
     <h3>Página de Login:</h3>
     <ul>
         <li>Muestra Login donde tenemos dos texfield del email como la contraseña.</li>
         <li>Contiene para crear cuenta como olvido su contraseña</li>
         <li>Pero mensionar que el login es mas que todo diseño ya que esta por default se puede entrar ya que no trabaja con base de datos</li>
     </ul>
-    <h2>Funcionalidades Principales</h2>
     <h3>Página de Inicio:</h3>
     <ul>
         <li>Muestra dos tarjetas: Series y Películas.</li>
