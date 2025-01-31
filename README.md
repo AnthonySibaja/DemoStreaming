@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DemoStreaming</title>
-</head>
+
 <body>
     <p>Esta es una aplicación React que muestra una lista de series y películas, permitiendo filtrarlas por año y ver detalles adicionales. La aplicación está construida con React, Redux, Material-UI (MUI) y utiliza un archivo JSON local para cargar los datos.</p>
     <h2>Instalación y Uso</h2>
