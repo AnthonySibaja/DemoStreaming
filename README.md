@@ -39,7 +39,7 @@
     <h3>Página de Login:</h3>
     <ul>
         <li>Muestra Login donde tenemos dos texfield del email como la contraseña.</li>
-        <li>Contiene para crear cuenta como olvido su contraseña</li>
+        <li>Contiene para crear cuenta y olvido su contraseña</li>
         <li>Pero mensionar que el login es mas que todo diseño ya que esta por default se puede entrar ya que no trabaja con base de datos</li>
     </ul>
     <h3>Página de Inicio:</h3>
@@ -49,7 +49,7 @@
     </ul>
     <h3>Página de Series:</h3>
     <ul>
-        <li>Muestra una lista de series filtradas por año (releaseYear &gt;= 2010).</li>
+        <li>Muestra una lista de series filtradas por año.</li>
         <li>Permite filtrar las series por año específico.</li>
         <li>Muestra un círculo de carga mientras se filtra.</li>
         <li>Se puede elejir el tamaño de los resultado</li>
@@ -58,8 +58,8 @@
     </ul>
     <h3>Página de Películas:</h3>
     <ul>
-         <li>Muestra una lista de Peliculas filtradas por año (releaseYear &gt;= 2010).</li>
-        <li>Permite filtrar las series por año específico.</li>
+         <li>Muestra una lista de Peliculas filtradas por año.</li>
+        <li>Permite filtrar las peliculas por año específico.</li>
         <li>Muestra un círculo de carga mientras se filtra.</li>
         <li>Se puede elejir el tamaño de los resultado</li>
         <li>Se implementa la paginación</li>
