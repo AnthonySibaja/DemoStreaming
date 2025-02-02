@@ -65,6 +65,11 @@
         <li>Se implementa la paginación</li>
         <li>Si no hay resultados, muestra un mensaje indicando que no hay coincidencias.</li>
     </ul>
+    <h3>Página de Paquetes:</h3>
+    <ul>
+        <li>Muestra una lista de paquetes que se pueden pagar.</li>
+        <li>Más que todo como ejemplo ya que es más como diseño.</li>
+    </ul>
     <h3>Carta de Detalles:</h3>
     <ul>
         <li>Al hacer clic en una serie o película, se abre un popup con detalles adicionales (title, description, releaseYear, image).</li>
@@ -83,11 +88,12 @@
     </ul>
     <h2>Capturas de Pantalla</h2>
     <ul>
-        <li><strong>Página de Login:</strong> <img src="https://github.com/user-attachments/assets/22781794-7376-4bdb-aa4f-9ce282cc05bf" alt="Página de Inicio"></li>
-        <li><strong>Página de Home:</strong> <img src="https://github.com/user-attachments/assets/0b1054d4-8925-4886-99cd-eba252bb815b" alt="Página de Inicio"></li>
-        <li><strong>Página de Series:</strong> <img src="https://github.com/user-attachments/assets/23c27053-284f-4cc2-a890-f2e91002b277" alt="Página de Series"></li>
-        <li><strong>Página de Películas:</strong> <img src="https://github.com/user-attachments/assets/531e9931-bd0e-4580-bf81-a60652feee79" alt="Página de Películas"></li>
-        <li><strong>Popup de Detalles:</strong> <img src="https://github.com/user-attachments/assets/533c2444-1eb0-4b40-9ed6-1fc49cab3477" alt="Popup de Detalles"></li>
+        <li><strong>Página de Login:</strong> <img src="https://github.com/user-attachments/assets/767db7df-cc65-47ad-8f9c-2334d9b3c776" alt="Página de Inicio"></li>
+        <li><strong>Página de Home:</strong> <img src="https://github.com/user-attachments/assets/d73362b4-c3d2-4eb7-b944-dd34a02930b3" alt="Página de Inicio"></li>
+        <li><strong>Página de Series:</strong> <img src="https://github.com/user-attachments/assets/d2577501-b0fa-4bcf-ad8e-a4b0e4f4ec83" alt="Página de Series"></li>
+        <li><strong>Página de Películas:</strong> <img src="https://github.com/user-attachments/assets/8ac3380c-de71-46b0-ac9b-df433f82b569" alt="Página de Películas"></li>
+        <li><strong>Popup de Detalles:</strong> <img src="https://github.com/user-attachments/assets/c6a32e98-4488-453e-a8c8-8a816e6ab28a" alt="Popup de Detalles"></li>
+        <li><strong>Paquetes venta:</strong> <img src="https://github.com/user-attachments/assets/42a4701f-368b-4676-9426-4d265d75999f" alt="Popup de Detalles"></li>
     </ul>
     <ul>
         <li><strong>Nombre:</strong> Anthony Sibaja Granados</li>
