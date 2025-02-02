@@ -31,7 +31,7 @@
     <ul>
         <li><strong>src/:</strong> Contiene el código fuente de la aplicación.</li>
         <li><strong>components/:</strong> Componentes reutilizables como Card, Healer y Footer</li>
-        <li><strong>pages/:</strong> Páginas de la aplicación (Home, Series, Movies, Login).</li>
+        <li><strong>pages/:</strong> Páginas de la aplicación (Home, Series, Movies, Login, Paquetes).</li>
         <li><strong>Ultis/:</strong> Configuración de Redux en la carpeta Utils (Store, MoviesSlice).</li>
         <li><strong>public/:</strong> Archivos estáticos como imágenes y el archivo JSON (sample.json).</li>
     </ul>
