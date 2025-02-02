@@ -10,67 +10,69 @@ import xImage from '../assets/img/x.png';
 const Footer: React.FC = () => {
   return (
     <Box
-      component="footer"
       sx={{
-        position: 'fixed',
-        bottom: 0,
         width: '100%',
         backgroundColor: '#001a3d',
         color: 'white',
-        padding: 2,
         textAlign: 'center',
-        zIndex: 1100,
-        
+        padding: '8px 0', 
+        position: 'relative',
+        bottom: 0,
+        left: 0,
+        zIndex: 1000,
+        marginTop: 0, 
       }}
     >
-      <Container maxWidth="lg">
-        <Grid container spacing={2} justifyContent="center">
+      <Container maxWidth="lg" sx={{ padding: 0 }}> 
+        <Grid container spacing={1} justifyContent="center" sx={{ marginBottom: 1 }}>
           {['Home', 'Terms and Conditions', 'Privacy Policy', 'Collection Statement', 'Help', 'Manage Account'].map(
             (text, index) => (
               <Grid item key={index}>
-                <Link href={`/${text.toLowerCase().replace(/\s+/g, '-')}`} color="inherit" underline="hover">
+                <Link
+                  href={`/${text.toLowerCase().replace(/\s+/g, '-')}`}
+                  color="inherit"
+                  underline="hover"
+                  sx={{ fontSize: '0.8rem' }} 
+                >
                   {text}
                 </Link>
               </Grid>
             ),
           )}
         </Grid>
-
-        <Typography variant="body1" sx={{ marginTop: 2 }}>
+        <Typography variant="body2" sx={{ marginBottom: 1, fontSize: '0.75rem' }}> 
           COPYRIGHT© {new Date().getFullYear()} DEMO Streaming. All Rights Reserved.
         </Typography>
-
-        
         <Box
           sx={{
-            marginTop: 2,
             display: 'flex',
-            flexDirection: { xs: 'column', sm: 'row' }, 
+            flexDirection: { xs: 'column', sm: 'row' },
             justifyContent: 'space-between',
             alignItems: 'center',
-            gap: 2,
+            gap: 1,
+            padding: 0,
           }}
         >
-          <Box sx={{ display: 'flex', gap: 2 }}>
+          <Box sx={{ display: 'flex', gap: 1 }}>
             <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src={instagramImage} alt="Instagram" style={{ height: '30px' }} />
+              <img src={instagramImage} alt="Instagram" style={{ height: '20px' }} /> 
             </Link>
             <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src={facebookImage} alt="Facebook" style={{ height: '30px' }} />
+              <img src={facebookImage} alt="Facebook" style={{ height: '20px' }} />
             </Link>
             <Link href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src={xImage} alt="X (Twitter)" style={{ height: '30px' }} />
+              <img src={xImage} alt="X (Twitter)" style={{ height: '20px' }} />
             </Link>
           </Box>
-          <Box sx={{ display: 'flex', gap: 2 }}>
+          <Box sx={{ display: 'flex', gap: 1 }}>
             <Link href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
-              <img src={appStoreImage} alt="App Store" style={{ height: '40px' }} />
+              <img src={appStoreImage} alt="App Store" style={{ height: '30px' }} /> 
             </Link>
             <Link href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
-              <img src={googlePlayImage} alt="Google Play" style={{ height: '40px' }} />
+              <img src={googlePlayImage} alt="Google Play" style={{ height: '30px' }} />
             </Link>
             <Link href="https://www.microsoft.com/store" target="_blank" rel="noopener noreferrer">
-              <img src={microsoftImage} alt="Microsoft Store" style={{ height: '40px' }} />
+              <img src={microsoftImage} alt="Microsoft Store" style={{ height: '30px' }} />
             </Link>
           </Box>
         </Box>
