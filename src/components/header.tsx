@@ -15,24 +15,22 @@ const Header: React.FC = () => {
   };
 
   return (
-    <AppBar position="fixed" sx={{ zIndex: 1100, backgroundColor: '#1976d2' }}>
+    <AppBar position="fixed" sx={{ zIndex: 1100, backgroundColor: '#001a3d' }}>
       <Toolbar>
-        {/* Logo */}
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
             Demo Streaming
           </Link>
         </Typography>
         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-          
           <Button color="inherit" component={Link} to="/login">
             Login
           </Button>
           <Button
             variant="contained"
-            sx={{ backgroundColor: 'grey', color: 'white', '&:hover': { backgroundColor: 'darkgrey' } }}
+            sx={{ backgroundColor: '#01060e', color: 'white', '&:hover': { backgroundColor: 'darkgrey' } }}
             component={Link}
-            to="*"
+            to="/paquete"
           >
             Start your free trial
           </Button>
@@ -47,7 +45,6 @@ const Header: React.FC = () => {
             onClose={handleMenuClose}
             sx={{ display: { xs: 'block', sm: 'none' } }}
           >
-            
             <MenuItem onClick={handleMenuClose} component={Link} to="/login">
               Login
             </MenuItem>

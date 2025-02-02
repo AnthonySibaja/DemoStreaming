@@ -2,8 +2,9 @@ import React from 'react';
 import { Card, CardMedia, Typography, Grid, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-import popularSeriesImage from './img/cine.png';
-import popularMoviesImage from './img/cine.png';
+import popularSeriesImage from '../assets/img/series.jpg';
+import popularMoviesImage from '../assets/img/pelis.jpg';
+import backgroundImage from '../assets/img/fondo_pantalla.png';
 
 const Home: React.FC = () => {
   return (
@@ -15,10 +16,15 @@ const Home: React.FC = () => {
         display: 'flex', 
         flexDirection: 'column', 
         justifyContent: 'flex-start', 
-        alignItems: 'center' 
+        alignItems: 'center',
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${backgroundImage})`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+        backgroundRepeat: 'no-repeat', 
+        overflow: 'hidden',
       }}
     >
-      <Typography variant="h4" align="center" gutterBottom>
+      <Typography variant="h4" align="center" gutterBottom sx={{ color: 'white', marginTop: '20px' }}>
         Títulos Populares
       </Typography>
 
@@ -32,19 +38,20 @@ const Home: React.FC = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Card
             sx={{
-              maxWidth: 345,
+              maxWidth: 400,
               cursor: 'pointer',
               '&:hover': { opacity: 0.8, border: '2px solid white' },
+              backgroundColor: '#001a3d', 
             }}
           >
             <Link to="/series" style={{ textDecoration: 'none', color: 'inherit' }}>
               <CardMedia
                 component="img"
-                height="140"
+                height="200"
                 image={popularSeriesImage} 
                 alt="Popular Series"
               />
-              <Typography variant="h5" align="center" sx={{ padding: 2 }}>
+              <Typography variant="h5" align="center" sx={{ padding: 2, color: '#white' }}> 
                 Series Populares
               </Typography>
             </Link>
@@ -53,19 +60,20 @@ const Home: React.FC = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Card
             sx={{
-              maxWidth: 345,
+              maxWidth: 400,
               cursor: 'pointer',
               '&:hover': { opacity: 0.8, border: '2px solid white' },
+              backgroundColor: '#001a3d', 
             }}
           >
             <Link to="/movies" style={{ textDecoration: 'none', color: 'inherit' }}>
               <CardMedia
                 component="img"
-                height="140"
+                height="200"
                 image={popularMoviesImage}
                 alt="Popular Movies"
               />
-              <Typography variant="h5" align="center" sx={{ padding: 2 }}>
+              <Typography variant="h5" align="center" sx={{ padding: 2, color: '#white' }}>
                 Peliculas Populares
               </Typography>
             </Link>

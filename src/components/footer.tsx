@@ -1,11 +1,11 @@
 import React from 'react';
 import { Box, Typography, Container, Link, Grid } from '@mui/material';
-import appStoreImage from './img/app-store.png';
-import googlePlayImage from './img/Google_Play_Store_badge_EN.svg.png';
-import microsoftImage from './img/microsoft.png';
-import instagramImage from './img/instagram.png';
-import facebookImage from './img/facebook.png';
-import xImage from './img/x.png';
+import appStoreImage from '../assets/img/app-store.png';
+import googlePlayImage from '../assets/img/Google_Play_Store_badge_EN.svg.png';
+import microsoftImage from '../assets/img/microsoft.png';
+import instagramImage from '../assets/img/instagram.png';
+import facebookImage from '../assets/img/facebook.png';
+import xImage from '../assets/img/x.png';
 
 const Footer: React.FC = () => {
   return (
@@ -15,15 +15,15 @@ const Footer: React.FC = () => {
         position: 'fixed',
         bottom: 0,
         width: '100%',
-        backgroundColor: 'primary.main',
+        backgroundColor: '#001a3d',
         color: 'white',
         padding: 2,
         textAlign: 'center',
         zIndex: 1100,
+        
       }}
     >
       <Container maxWidth="lg">
-        {/* Enlaces del footer */}
         <Grid container spacing={2} justifyContent="center">
           {['Home', 'Terms and Conditions', 'Privacy Policy', 'Collection Statement', 'Help', 'Manage Account'].map(
             (text, index) => (
@@ -36,7 +36,6 @@ const Footer: React.FC = () => {
           )}
         </Grid>
 
-        
         <Typography variant="body1" sx={{ marginTop: 2 }}>
           COPYRIGHT© {new Date().getFullYear()} DEMO Streaming. All Rights Reserved.
         </Typography>
