@@ -31,7 +31,7 @@
     <ul>
         <li><strong>src/:</strong> Contiene el código fuente de la aplicación.</li>
         <li><strong>components/:</strong> Componentes reutilizables como Card, Healer y Footer</li>
-        <li><strong>pages/:</strong> Páginas de la aplicación (Home, Series, Movies, Login).</li>
+        <li><strong>pages/:</strong> Páginas de la aplicación (Home, Series, Movies, Login, Paquetes).</li>
         <li><strong>Ultis/:</strong> Configuración de Redux en la carpeta Utils (Store, MoviesSlice).</li>
         <li><strong>public/:</strong> Archivos estáticos como imágenes y el archivo JSON (sample.json).</li>
     </ul>
@@ -39,7 +39,7 @@
     <h3>Página de Login:</h3>
     <ul>
         <li>Muestra Login donde tenemos dos texfield del email como la contraseña.</li>
-        <li>Contiene para crear cuenta como olvido su contraseña</li>
+        <li>Contiene para crear cuenta y olvido su contraseña</li>
         <li>Pero mensionar que el login es mas que todo diseño ya que esta por default se puede entrar ya que no trabaja con base de datos</li>
     </ul>
     <h3>Página de Inicio:</h3>
@@ -49,7 +49,7 @@
     </ul>
     <h3>Página de Series:</h3>
     <ul>
-        <li>Muestra una lista de series filtradas por año (releaseYear &gt;= 2010).</li>
+        <li>Muestra una lista de series filtradas por año.</li>
         <li>Permite filtrar las series por año específico.</li>
         <li>Muestra un círculo de carga mientras se filtra.</li>
         <li>Se puede elejir el tamaño de los resultado</li>
@@ -58,12 +58,17 @@
     </ul>
     <h3>Página de Películas:</h3>
     <ul>
-         <li>Muestra una lista de Peliculas filtradas por año (releaseYear &gt;= 2010).</li>
-        <li>Permite filtrar las series por año específico.</li>
+         <li>Muestra una lista de Peliculas filtradas por año.</li>
+        <li>Permite filtrar las peliculas por año específico.</li>
         <li>Muestra un círculo de carga mientras se filtra.</li>
         <li>Se puede elejir el tamaño de los resultado</li>
         <li>Se implementa la paginación</li>
         <li>Si no hay resultados, muestra un mensaje indicando que no hay coincidencias.</li>
+    </ul>
+    <h3>Página de Paquetes:</h3>
+    <ul>
+        <li>Muestra una lista de paquetes que se pueden pagar.</li>
+        <li>Más que todo como ejemplo ya que es más como diseño.</li>
     </ul>
     <h3>Carta de Detalles:</h3>
     <ul>
@@ -83,11 +88,13 @@
     </ul>
     <h2>Capturas de Pantalla</h2>
     <ul>
-        <li><strong>Página de Login:</strong> <img src="https://github.com/user-attachments/assets/22781794-7376-4bdb-aa4f-9ce282cc05bf" alt="Página de Inicio"></li>
-        <li><strong>Página de Home:</strong> <img src="https://github.com/user-attachments/assets/0b1054d4-8925-4886-99cd-eba252bb815b" alt="Página de Inicio"></li>
-        <li><strong>Página de Series:</strong> <img src="https://github.com/user-attachments/assets/23c27053-284f-4cc2-a890-f2e91002b277" alt="Página de Series"></li>
-        <li><strong>Página de Películas:</strong> <img src="https://github.com/user-attachments/assets/531e9931-bd0e-4580-bf81-a60652feee79" alt="Página de Películas"></li>
-        <li><strong>Popup de Detalles:</strong> <img src="https://github.com/user-attachments/assets/533c2444-1eb0-4b40-9ed6-1fc49cab3477" alt="Popup de Detalles"></li>
+        <li><strong>Página de Login:</strong> <img src="https://github.com/user-attachments/assets/767db7df-cc65-47ad-8f9c-2334d9b3c776" alt="Página de Inicio"></li>
+        <li><strong>Página de Home:</strong> <img src="https://github.com/user-attachments/assets/d73362b4-c3d2-4eb7-b944-dd34a02930b3" alt="Página de Inicio"></li>
+        <li><strong>Página de Series:</strong> <img src="https://github.com/user-attachments/assets/1ef8cfaa-6402-4eef-beaa-cc2c9b7f58e4" alt="Página de Series"></li>
+        <li><strong>Página de Películas:</strong> <img src="https://github.com/user-attachments/assets/274fdb3d-708f-4392-9481-703a45763678" alt="Página de Películas"></li>
+         <li><strong>Final de paginas:</strong> <img src="https://github.com/user-attachments/assets/ccdbc9fa-1769-4cfa-80d0-eb7be78dbcce" alt="Página de Películas"></li>
+        <li><strong>Popup de Detalles:</strong> <img src="https://github.com/user-attachments/assets/bad930ab-1c57-4e1d-a5fc-d90b9c072e77" alt="Popup de Detalles"></li>
+        <li><strong>Paquetes venta:</strong> <img src="https://github.com/user-attachments/assets/42a4701f-368b-4676-9426-4d265d75999f" alt="Popup de Detalles"></li>
     </ul>
     <ul>
         <li><strong>Nombre:</strong> Anthony Sibaja Granados</li>
