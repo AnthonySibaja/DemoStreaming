@@ -161,7 +161,7 @@ const Movies: React.FC = () => {
                 maxWidth: 345,
                 cursor: 'pointer',
                 '&:hover': { opacity: 0.8, border: '2px solid white' },
-                backgroundColor: '#001a3d', // Color de fondo de la carta
+                backgroundColor: '#001a3d', 
               }}
               onClick={() => setSelectedItem(movie)}
             >
